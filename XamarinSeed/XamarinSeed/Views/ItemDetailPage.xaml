@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinSeed.Views.ItemDetailPage"
+             Title="{Binding Title}">
+    <StackLayout Spacing="20" Padding="15">
+        <Label Text="ID:" FontSize="Medium" />
+        <Label Text="{Binding Item.Id}" FontSize="Small"/>
+        <Label Text="Title:" FontSize="Medium" />
+        <Label Text="{Binding Item.Title}" FontSize="Small"/>
+        <Label Text="Completed:" FontSize="Medium" />
+        <Label Text="{Binding Item.Completed}" FontSize="Small"/>
+        <Label Text="UserId:" FontSize="Medium" />
+        <Label Text="{Binding Item.UserId}" FontSize="Small"/>
+    </StackLayout>
+</ContentPage>
